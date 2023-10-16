@@ -1,0 +1,15 @@
+copy all files to user directory
+
+first run installDriver
+copy createACESSPOINT.py to desktop
+then run sudo -i
+
+then sudo mv /home/gssst/createACESSPOINT.py  /root/
+then python createACESSPOINT.py
+
+
+again enter root by running this command sudo -i
+then sudo mv /home/gssst/changeHOSTAPD.py  /root/
+then change hostapd conf with changeHOSTAPD.py file 
+
+Additionally, I have an outstation medical follow-up next month

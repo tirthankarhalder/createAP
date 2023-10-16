@@ -1,0 +1,20 @@
+2023-05-15 14:03:44.834039
+# iperf3 -c 192.168.42.1 -n 10M
+'iperf3' is not recognized as an internal or external command,
+operable program or batch file.
+2023-05-15 14:03:44.852048
+# iperf3 -c 192.168.42.1 -u -n 10M
+'iperf3' is not recognized as an internal or external command,
+operable program or batch file.
+2023-05-15 14:03:44.871039
+# perf3 -c 192.168.42.1 -u -n 10M -b 100M
+'perf3' is not recognized as an internal or external command,
+operable program or batch file.
+2023-05-15 14:03:44.890045
+# iperf3 -c 192.168.42.1 -P 2 -t 30
+'iperf3' is not recognized as an internal or external command,
+operable program or batch file.
+2023-05-15 14:03:44.909056
+# iperf3 -c 192.168.42.1 -P 2 -t 10 -b 1G -u
+'iperf3' is not recognized as an internal or external command,
+operable program or batch file.

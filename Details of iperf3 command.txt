@@ -1,0 +1,5 @@
+iperf3 -c 192.168.42.1 -n 10M = Cllient side Sending 10M buffers to this IP 192.168.42.1
+iperf3 -c 192.168.42.1 -u -n 10M =Cllient side Sending 10M buffers to this IP 192.168.42.1 on UDP mode
+perf3 -c 192.168.42.1 -u -n 10M -b 100M =Cllient side Sending 10M buffers,bandwidth of 100m to this IP 192.168.42.1 on UDP mode0
+iperf3 -c 192.168.42.1 -P 2 -t 30 =Cllient side running 2 parallel test(-P signifies) with this IP 192.168.42.1 for 30sec(-t signifies- length of test)
+iperf3 -c 192.168.42.1 -P 2 -t 10 -b 1G -u =Cllient side running 2 parallel test(-P signifies) with bandwidth of 1G at this IP 192.168.42.1 for 10sec(-t signifies- length of test) on UDP mode

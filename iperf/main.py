@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan 12 20:56:18 2023
@@ -42,11 +41,11 @@ if ans == "no":
 
 """
 # -*- coding: utf-8 -*-
-"""
+
 Created on Thu Jan 12 20:56:18 2023
 
 @author: xd
-"""
+
 
 import pathlib
 import shlex

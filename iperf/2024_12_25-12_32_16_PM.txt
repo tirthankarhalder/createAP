@@ -1,4 +1,4 @@
-2024-12-25 12:30:13.937758
+2024-12-25 12:32:16.698321
 # iperf3 -c 192.168.4.1 -n 1M
 iperf3: parameter error - must either be a client (-c) or server (-s)
 
@@ -85,7 +85,7 @@ Client specific:
 
 iperf3 homepage at: https://software.es.net/iperf/
 Report bugs to:     https://github.com/esnet/iperf
-2024-12-25 12:30:13.947467
+2024-12-25 12:32:16.707595
 # iperf3 -c 192.168.4.1 -u -n 1M
 iperf3: parameter error - must either be a client (-c) or server (-s)
 
@@ -172,7 +172,7 @@ Client specific:
 
 iperf3 homepage at: https://software.es.net/iperf/
 Report bugs to:     https://github.com/esnet/iperf
-2024-12-25 12:30:13.957918
+2024-12-25 12:32:16.717723
 # iperf3 -c 192.168.4.1 -u -n 1M -b 100M
 iperf3: parameter error - must either be a client (-c) or server (-s)
 
@@ -259,7 +259,7 @@ Client specific:
 
 iperf3 homepage at: https://software.es.net/iperf/
 Report bugs to:     https://github.com/esnet/iperf
-2024-12-25 12:30:13.970945
+2024-12-25 12:32:16.728177
 # iperf3 -c 192.168.4.1 -P 2 -t 10
 iperf3: parameter error - must either be a client (-c) or server (-s)
 
@@ -346,7 +346,7 @@ Client specific:
 
 iperf3 homepage at: https://software.es.net/iperf/
 Report bugs to:     https://github.com/esnet/iperf
-2024-12-25 12:30:13.982446
+2024-12-25 12:32:16.740258
 # iperf3 -c 192.168.4.1 -P 2 -t 10 -b 1G -u
 iperf3: parameter error - must either be a client (-c) or server (-s)
 
@@ -433,6 +433,6 @@ Client specific:
 
 iperf3 homepage at: https://software.es.net/iperf/
 Report bugs to:     https://github.com/esnet/iperf
-2024-12-25 12:30:13.991866
+2024-12-25 12:32:16.750217
 # 
 /bin/sh: 0: -c requires an argument

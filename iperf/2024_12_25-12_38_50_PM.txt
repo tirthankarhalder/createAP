@@ -1,0 +1,27 @@
+2024-12-25 12:38:50.357345
+# iperf3 -c 192.168.4.1 -n 1M
+Command failed with exit code 1
+Error output: iperf3: error - the server has terminated
+
+2024-12-25 12:43:33.048619
+# iperf3 -c 192.168.4.1 -u -n 1M
+Command failed with exit code 1
+Error output: iperf3: error - unable to send control message: Bad file descriptor
+
+2024-12-25 12:43:33.070333
+# iperf3 -c 192.168.4.1 -u -n 1M -b 100M
+Command failed with exit code 1
+Error output: iperf3: error - unable to send control message: Bad file descriptor
+
+2024-12-25 12:43:33.091961
+# iperf3 -c 192.168.4.1 -P 2 -t 10
+Command failed with exit code 1
+Error output: iperf3: error - unable to send control message: Bad file descriptor
+
+2024-12-25 12:43:33.115294
+# iperf3 -c 192.168.4.1 -P 2 -t 10 -b 1G -u
+Command failed with exit code 1
+Error output: iperf3: error - unable to send control message: Bad file descriptor
+
+2024-12-25 12:43:33.135262
+# 

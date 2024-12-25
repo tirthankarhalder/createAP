@@ -31,6 +31,7 @@ with open(cmds_file, encoding="utf-8") as commands, open(output_file, "w", encod
         except subprocess.CalledProcessError as e:
             output.write(f"Command failed with exit code {e.returncode}\n")
             output.write(f"Error output: {e.stderr}\n")
+            
         
 
 '''
